@@ -1,2 +1,4 @@
 /sample-app/package-lock.json
 /sample-app/node_modules
+/api/node_modules
+/api/package-lock.json

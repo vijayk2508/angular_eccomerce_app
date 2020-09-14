@@ -30,3 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ng add @angular/material
 
 ng g c components/layout/footer
+
+ng serve --open

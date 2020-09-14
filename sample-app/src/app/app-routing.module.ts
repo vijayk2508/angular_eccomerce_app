@@ -1,8 +1,8 @@
-import { PostComponent } from './components/pages/post/post.component';
 import { DashboardComponent } from './components/pages/dashboard/dashboard.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DefaultComponent } from './components/layout/default/default.component';
+import { SubjectComponent } from './components/pages/subject/subject.component';
 
 const routes: Routes = [
   {
@@ -14,8 +14,8 @@ const routes: Routes = [
         component: DashboardComponent,
       },
       {
-        path: 'post',
-        component: PostComponent,
+        path: 'managesubject',
+        component: SubjectComponent,
       },
     ],
   },
